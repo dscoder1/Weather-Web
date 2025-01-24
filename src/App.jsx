@@ -32,7 +32,7 @@ const handleInput=(e)=>{
       <div className="box">
         <h1>Weather Details</h1>
         <br />
-        <input type="search" placeholder='Location...' value={location} onChange={handleInput}/>
+        <input type="search" placeholder='....Location....' value={location} onChange={handleInput}/>
         <div className="Details">
           {
             maindetails && coorddetails?
